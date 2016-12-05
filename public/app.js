@@ -12,7 +12,7 @@ window.onload = function(){
   var catPicture = document.createElement('img');
   catPicture.setAttribute('src','http://www.catbreedselector.com/wp-content/uploads/2016/09/Black-Burmese-Cat.jpg');
   catPicture.setAttribute('width', 500);
-  // document.getElementById('img').appendChild(catPicture);
+
 
   catList.append(catName);
   catList.append(catFood);
@@ -21,3 +21,6 @@ window.onload = function(){
   var catStuff = document.querySelector('#cats');
   catStuff.append(catList);
 };
+
+var CAT_ARRAY = [
+{title: "Name: Dennis the Menace", favoriteFood: "Apple Pie", img: "http://www.catbreedsjunction.com/images/burmese-cat-breed-9-lilac-color.jpg"}];
