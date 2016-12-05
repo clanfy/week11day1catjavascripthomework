@@ -4,10 +4,18 @@ window.onload = function(){
   catList.classList.add('cat');
 
   var catName = document.createElement('li');
-  catName.innerText = "Buddy";
+  catName.innerText = "Name: Buddy";
 
   var catFood = document.createElement('li');
-  catFood.innerText = "bin bags";
+  catFood.innerText = "Favorite food: bin bags";
 
-  var catPicture = 
+  var catPicture = document.createElement('li');
+  catPicture.innerText = "picture stuff";
+
+  catFood.appendChild(catPicture);
+  catName.appendChild(catFood);
+  catList.appendChild(catName);
+
+  var catStuff = document.querySelector('#cats');
+  catStuff.append(catList);
 };
