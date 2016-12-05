@@ -40,8 +40,8 @@ window.onload
 
 10. List two ways to get all the li elements
 
-- document.getElementById('ul/li');
-- document.querySelectorAll(#ul/li);
+- document.getElementById('li');
+- document.querySelectorAll(#li);
 
 11. List two ways to get the first li element
 
