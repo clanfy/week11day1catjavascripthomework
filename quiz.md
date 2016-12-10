@@ -30,7 +30,7 @@ window.onload
 
 8. List two ways to get all the elements by class 'cat'
 
-- document.getElementByClass('cat');
+- document.getElementByClassName('cat');
 - document.querySelectorAll('.cat');
 
 9. List two ways to retrieve the element with id "goat"
@@ -40,7 +40,7 @@ window.onload
 
 10. List two ways to get all the li elements
 
-- document.getElementById('li');
+- document.getElementByTagName('li');
 - document.querySelectorAll(#li);
 
 11. List two ways to get the first li element
