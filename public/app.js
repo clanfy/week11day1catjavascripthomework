@@ -31,15 +31,18 @@ var appTwo = function (){
 var addCat = function(title, favoriteFood, img){
   var catList = createCatList();
   var catName = createName(title);
+  var catBr = createBr();
   var catFood = createFood(favoriteFood);
   var catPic = createPic(img);
-  appendElements(catList, catName, catFood, catPic);
+  appendElements(catList, catName, catFood, catBr, catPic);
 };
 
-var appendElements= function(catList, catName, catFood, catPic){
+var appendElements= function(catList, catName, catFood, catBr, catPic){
   var catStuff = document.querySelector('#cats');
+
   catList.append(catName);
   catList.append(catFood);
+  catList.append(catBr);
   catList.append(catPic);
   catStuff.append(catList);
 };
@@ -55,6 +58,11 @@ var createName = function(title){
   var catName = document.createElement('li');
   catName.innerText = title;
   return catName;
+};
+
+var createBr = function(){
+  var br = document.createElement('br');
+  return br;
 };
 
 var createFood = function(favoriteFood){

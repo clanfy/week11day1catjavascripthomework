@@ -6,3 +6,13 @@
 .red-quote{
   color: red;
 }
+
+body {
+  background-color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+img {
+  border-radius: 25px;
+}
