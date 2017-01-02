@@ -1,4 +1,4 @@
-window.onload = function(){
+var appOne = function(){
 
   var catList = document.createElement('ul');
   catList.classList.add('cat');
@@ -22,5 +22,17 @@ window.onload = function(){
   catStuff.append(catList);
 };
 
+window.onload = appOne;
+
+var appTwo = function (){
+ for (var i = 0; i < CAT_ARRAY.length; i++){
+  addCat(CAT_ARRAY[i].title, CAT_ARRAY[i].favoriteFood, CAT_ARRAY[i].img);
+ }
+};
+
+
+
 var CAT_ARRAY = [
 {title: "Name: Dennis the Menace", favoriteFood: "Apple Pie", img: "http://www.catbreedsjunction.com/images/burmese-cat-breed-9-lilac-color.jpg"}];
+
+
