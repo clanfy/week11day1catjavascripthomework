@@ -71,6 +71,8 @@ var createPic = function(pic){
 };
 
 var CAT_ARRAY = [
-{title: "Name: Dennis the Menace", favoriteFood: "Apple Pie", img: "http://www.catbreedsjunction.com/images/burmese-cat-breed-9-lilac-color.jpg"}];
+{title: "Name: Dennis the Menace", favoriteFood: "Apple Pie", img: "http://www.catbreedsjunction.com/images/burmese-cat-breed-9-lilac-color.jpg"},
+{title: "Name: Buddy", favoriteFood: "Bin Bags", img: 'http://www.catbreedselector.com/wp-content/uploads/2016/09/Black-Burmese-Cat.jpg'}
+];
 
 window.onload = appTwo;
